@@ -1,0 +1,56 @@
+$a: #09b4c0;
+h1{
+    color: $a;
+} 
+$color_botones: white;
+$p: relative;
+$alto: 50px;
+$ancho: 60px;
+$radio: 10px;
+$texto: #6ad1d8;
+$borde: 2px solid #6ad1d8;
+$margen: 20px;
+$caja: 0 0 3px #bef4f8, 0 0 8px #bef4f8, 0 0 8px #bef4f8;
+.boton{
+	background-color: $color_botones;
+    position: $p;
+    height: $alto;
+    width: $ancho;
+    border-radius: $radio;
+    color: $texto;
+    border: $borde;
+    margin-bottom: $margen;
+}
+.button:hover {
+    box-shadow: $caja;
+    background-color: #bef4f8;
+  }
+ $grid: 200px;
+ .container{
+     padding-right: $grid;
+     padding-left: $grid;
+ }
+//*navbar*//
+nav {
+  background-color: white;
+  padding: 20px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+  li {
+    display: inline-block;
+  }
+  li :hover{
+    background-color: #82dcf3;
+    color: white;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+  }
+}

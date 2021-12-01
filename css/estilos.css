@@ -1,0 +1,53 @@
+h1 {
+  color: #09b4c0;
+}
+
+.boton {
+  background-color: white;
+  position: relative;
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  color: #6ad1d8;
+  border: 2px solid #6ad1d8;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 0 3px #bef4f8, 0 0 8px #bef4f8, 0 0 8px #bef4f8;
+          box-shadow: 0 0 3px #bef4f8, 0 0 8px #bef4f8, 0 0 8px #bef4f8;
+  background-color: #bef4f8;
+}
+
+.container {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+nav {
+  background-color: white;
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li :hover {
+  background-color: #82dcf3;
+  color: white;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: black;
+}
